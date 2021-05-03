@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<L
         mTheme = theme;
         mMapTheme = mapTheme;
         themeReset = mThemeReset;
-        Toast.makeText(MainActivity.this, "App Theme changing not work in android pir or older version", Toast.LENGTH_LONG).show();
         if (theme.equals("Dark")) {
             if (themeReset) {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
