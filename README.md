@@ -9,7 +9,7 @@ Developed an Android App called QuakeWatch for users to monitor earthquakes happ
 * Search feature, user can search earchquakes by country name or by magnitude
 
 ### MAP API Key
-You will need to register a Key for Google Map API for this project, go to API Console </br>
+You will need to register a Key for Google Map API for this project,</br> go to API Console
 https://support.google.com/googleapi/answer/6158862?hl=en. And then Use your API key as the value</br> for google_maps_key in the strings.xml file under the res/values directory.
 
 ### USGS API
@@ -27,6 +27,6 @@ https://user-images.githubusercontent.com/53445530/116882593-3e6bc000-ac42-11eb-
 </div>
 
 ### More Info
-This app displays a list of recent earthquakes in the world from the U.S. Geological Survey (USGS) organization.
+This app displays a list of recent earthquakes in the world from the U.S. Geological Survey (USGS) organization.</br>
 Used in a Udacity course in the Beginning Android Nanodegree. But implemented some advanced and more complex features. </br>
 <a href="https://www.udacity.com/course/android-basics-networking--ud843?autoenroll=true#">Android Basics: Networking.</a>
