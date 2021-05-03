@@ -8,7 +8,8 @@ Developed an Android App called QuakeWatch for users to monitor earthquakes happ
 * User can choose theme Light or Dark
 
 ### MAP API Key
-You will need to register a Key for Google Map API for this project, go to API Console https://support.google.com/googleapi/answer/6158862?hl=en. And then Use your API key as the value for google_maps_key in the strings.xml file under the res/values directory.
+You will need to register a Key for Google Map API for this project, go to API Console 
+https://support.google.com/googleapi/answer/6158862?hl=en. And then Use your API key as the value for google_maps_key in the strings.xml file under the res/values directory.
 
 ### Info
 This app displays a list of recent earthquakes in the world from the U.S. Geological Survey (USGS) organization.
