@@ -6,6 +6,7 @@ Developed an Android App called QuakeWatch for users to monitor earthquakes happ
 * MAP implementation
 * User can choose theme Light or Dark
 * 7 different MAP themes are available
+* Swipe down to refresh the earthquake data
 * Search feature, user can search earchquakes by country name or by magnitude
 
 ### MAP API Key
