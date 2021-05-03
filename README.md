@@ -13,9 +13,9 @@ https://support.google.com/googleapi/answer/6158862?hl=en. And then Use your API
 
 ### DEMO
 <div style="display:flex;">
-<img alt="App image" src="Examples/example1.gif" width="25%">
-<img alt="App image" src="Examples/example2.gif" width="25%">
-<img alt="App image" src="Examples/example3.gif" width="25%">
+<img alt="App image" src="Examples/example1.mp4" width="25%">
+<img alt="App image" src="Examples/example2.mp4" width="25%">
+<img alt="App image" src="Examples/ssdemo1.jpeg" width="25%">
 </div>
 
 ### More Info
