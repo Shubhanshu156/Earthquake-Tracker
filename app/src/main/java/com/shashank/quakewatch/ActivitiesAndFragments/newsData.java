@@ -72,8 +72,8 @@ public class newsData extends Fragment implements LoaderManager.LoaderCallbacks<
     ProgressBar loadingProgressBar;
     ConnectivityManager connectivityManager;
     ArrayList<news> newsArrayList = new ArrayList<>();
-//    final String NEWS_REQUEST_URL = "https://newsdata.io/api/1/news?apikey=pub_86d9a0c3e444bf309106b74ee68118f722&q=earthquake";
-    final String NEWS_REQUEST_URL = "https://gnews.io/api/v4/search?q=earthquake&token=1fa64bbcaae74af8046a4ae50977c3ea";
+//    final String NEWS_REQUEST_URL = "https://newsdata.io/api/1/news?apikey=pub_API_KEY&q=earthquake";
+    final String NEWS_REQUEST_URL = "https://gnews.io/api/v4/search?q=earthquake&token=API_KEY";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
