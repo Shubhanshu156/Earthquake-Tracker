@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:gravity="start"
         android:orientation="vertical"
-        tools:context=".detailedData">
+        tools:context=".ActivitiesAndFragments.detailedData">
 
         <TextView
             android:id="@+id/title"

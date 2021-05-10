@@ -9,14 +9,14 @@
         app:actionViewClass="android.widget.SearchView"
         app:showAsAction="ifRoom"
         />
-    <item android:title="@string/filter"
+    <item android:title="Filter"
         android:id="@+id/filter"
         android:icon="@drawable/ic_filter_list"
-        app:showAsAction="ifRoom"
+        app:showAsAction="collapseActionView"
         />
-    <item android:title="@string/settings"
+    <item android:title="Theme"
         android:id="@+id/settings"
-        android:icon="@drawable/ic_settings"
-        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_sun"
+        app:showAsAction="collapseActionView"
         />
 </menu>

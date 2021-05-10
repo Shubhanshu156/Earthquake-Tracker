@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shashank.quakewatch">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <queries>
@@ -14,27 +15,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuakeREPORT">
+        <activity android:name=".ActivitiesAndFragments.WebView"
+            android:hardwareAccelerated="true"
+            android:label="In-AppBrowser"/>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/API"/>
-        <activity android:name=".splashScreen"
+            android:value="@string/API" />
+
+        <activity
+            android:name=".ActivitiesAndFragments.splashScreen"
             android:resizeableActivity="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
+            android:name=".ActivitiesAndFragments.detailedData"
             android:hardwareAccelerated="true"
-            android:name=".detailedData"
             android:label="Information"
-            android:resizeableActivity="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".ActivitiesAndFragments.MainActivity"
+            android:resizeableActivity="false" />
         <activity
-            android:name=".MainActivity"
-            android:resizeableActivity="false">
-        </activity>
+            android:name=".ActivitiesAndFragments.MainActivity"
+            android:resizeableActivity="false"/>
     </application>
 
 </manifest>

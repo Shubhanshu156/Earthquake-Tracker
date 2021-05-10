@@ -5,7 +5,7 @@
     android:id="@+id/rel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapFragment">
+    tools:context=".ActivitiesAndFragments.MapFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <androidx.cardview.widget.CardView
@@ -19,7 +19,9 @@
             android:id="@+id/google_map"
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
+        </fragment>
+
     </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

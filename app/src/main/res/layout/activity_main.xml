@@ -5,37 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context="com.shashank.quakewatch.MainActivity">
+    tools:context="com.shashank.quakewatch.ActivitiesAndFragments.MainActivity">
     <!--        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"-->
-    <ProgressBar
-        android:id="@+id/Loading"
-        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
-
-    <TextView
-        android:id="@+id/emptyView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:fontFamily="sans-serif-condensed"
-        android:textSize="20sp" />
-
-    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-        android:id="@+id/swipe"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ListView
-            android:id="@+id/lv"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="90dp"
-            tools:layout_editor_absoluteY="316dp">
-
-        </ListView>
-
-    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        android:layout_height="match_parent" />
 
 </RelativeLayout>

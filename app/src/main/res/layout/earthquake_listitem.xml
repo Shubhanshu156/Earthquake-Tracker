@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/listview"
+    android:foreground="?android:selectableItemBackground"
     android:paddingLeft="8dp"
     android:paddingTop="8dp"
     android:paddingRight="8dp">
@@ -31,7 +33,7 @@
             android:fontFamily="sans-serif-condensed"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:textColor="@color/textColorEarthquakeDetails"
+            android:textColor="#9B9C9E"
             tools:text="karamshad west of" />
 
         <TextView
@@ -44,7 +46,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:paddingRight="10dp"
-            android:textColor="#C1C1C3"
+            android:textColor="#9B9C9E"
             android:textSize="16sp"
             tools:text="Anand" />
     </LinearLayout>
@@ -60,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed"
-            android:textColor="@color/textColorEarthquakeDetails"
+            android:textColor="#9B9C9E"
             tools:text="31/12/2020" />
 
         <TextView
@@ -69,7 +71,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed"
             android:paddingTop="10dp"
-            android:textColor="@color/textColorEarthquakeDetails"
+            android:textColor="#9B9C9E"
             tools:text="12:00 AM" />
     </LinearLayout>
 </LinearLayout>
