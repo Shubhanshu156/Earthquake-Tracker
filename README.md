@@ -25,10 +25,10 @@ https://user-images.githubusercontent.com/53445530/117691268-578fe600-b1d9-11eb-
 
 
 <div style="display:flex;">
-<img alt="App image" src="Examples/ssdemo1.jpeg" width="25%">
-<img alt="App image" src="Examples/ssdemo2.jpeg" width="25%">
-<img alt="App image" src="Examples/ssdemo3.jpeg" width="25%">
-<img alt="App image" src="Examples/ssdemo4.jpeg" width="25%">
+<img alt="App image" src="Examples/ssdemo1.jpeg" width="22%">
+<img alt="App image" src="Examples/ssdemo2.jpeg" width="22%">
+<img alt="App image" src="Examples/ssdemo3.jpeg" width="22%">
+<img alt="App image" src="Examples/ssdemo4.jpeg" width="22%">
 </div>
 
 ### More Info
