@@ -12,9 +12,9 @@ Developed an Android App called QuakeWatch for users to monitor earthquakes happ
 * Swipe left to get NEWS feed about earthquakes
 * Search feature, user can search earchquakes by country name or by magnitude
 
-### MAP API Key
+### MAP API 
 You will need to register a Key for Google Map API for this project, go to API Console </br>
-https://support.google.com/googleapi/answer/6158862?hl=en. And then Use your API key as the value</br> for google_maps_key in the strings.xml file under the res/values directory.
+https://support.google.com/googleapi/answer/6158862?hl=en.</br> And then Use your API key as the value</br> for google_maps_key in the strings.xml file under the res/values directory.
 
 ### USGS API
 Fetched the real-time data in GeoJSON format from US Geological Survey Website</br>
