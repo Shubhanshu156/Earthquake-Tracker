@@ -19,9 +19,11 @@ https://earthquake.usgs.gov/fdsnws/event/1/
 
 ### DEMO
 
-https://user-images.githubusercontent.com/53445530/116882539-31e76780-ac42-11eb-8340-406c0057978d.mp4
 
-https://user-images.githubusercontent.com/53445530/116882593-3e6bc000-ac42-11eb-8bf3-d24d48bdea30.mp4
+
+https://user-images.githubusercontent.com/53445530/117691268-578fe600-b1d9-11eb-901d-9ad946ff2d92.mp4
+
+
 <div style="display:flex;">
 <img alt="App image" src="Examples/ssdemo1.jpeg" width="25%">
 <img alt="App image" src="Examples/ssdemo2.jpeg" width="25%">
@@ -29,5 +31,5 @@ https://user-images.githubusercontent.com/53445530/116882593-3e6bc000-ac42-11eb-
 
 ### More Info
 This app displays a list of recent earthquakes in the world from the U.S. Geological Survey (USGS) organization.</br>
-Used in a Udacity course in the Beginning Android Nanodegree. But implemented some advanced and more complex features. </br>
+Used in a Udacity course in the Beginning Android Nanodegree, But I implemented some advanced and more complex features. </br>
 <a href="https://www.udacity.com/course/android-basics-networking--ud843?autoenroll=true#">Android Basics: Networking.</a>
