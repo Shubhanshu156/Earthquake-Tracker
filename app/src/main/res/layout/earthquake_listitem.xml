@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview"
+    android:foreground="?android:selectableItemBackground"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp">
+
+    <TextView
+        android:id="@+id/magnitude"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/magnitude_circle"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:textSize="15sp"
+        tools:text="7.2" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="#9B9C9E"
+            tools:text="karamshad west of" />
+
+        <TextView
+            android:id="@+id/priLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#9B9C9E"
+            android:textSize="16sp"
+            tools:text="Anand" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#9B9C9E"
+            tools:text="31/12/2020" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="10dp"
+            android:textColor="#9B9C9E"
+            tools:text="12:00 AM" />
+    </LinearLayout>
+</LinearLayout>
