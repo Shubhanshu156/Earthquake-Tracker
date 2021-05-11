@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_dialog"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:minWidth="377dp"
+    android:minHeight="450dp"
+    android:padding="25dp"
+    tools:ignore="InvalidId">
+
+    <TextView
+        android:id="@+id/filter_dialoguge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/filter"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp" />
+
+            <NumberPicker
+                android:id="@+id/minimum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:paddingTop="22dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="order: "
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="time-dsc" />
+
+            <RadioButton
+                android:id="@+id/time_asc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="time-asc" />
+
+            <RadioButton
+                android:id="@+id/magnitude_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="magnitude-dsc" />
+
+            <RadioButton
+                android:id="@+id/magnitude_asc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="magnitude-asc" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/numofEarthquake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="total number of earthquakes"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="done" />
+
+</LinearLayout>
